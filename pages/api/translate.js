@@ -2,6 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
+    basePath: 'https://service-4y8atuq4-1259057771.sg.apigw.tencentcs.com/v1',
 });
 const openai = new OpenAIApi(configuration);
 
