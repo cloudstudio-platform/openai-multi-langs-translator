@@ -9,20 +9,20 @@ Open AI Multi Langs Translator 是一個基於 Next.js 架構的項目，它通�
 
 ----
 
-Open AI Multi Langs Translator is a project based on the Next.js framework, which implements a web application programming interface for multi-language translation with Open AI's text-davinci-003 model. Users can input the text they want to translate on this website and choose the desired language for translation. In addition, Open AI Multi Langs Translator also supports translation between multiple languages, such as English, Chinese, Spanish, French, German, and more.
+Open AI Multi Langs Translator 是一个基于 Next.js 框架的项目，它使用 Open AI 的 text-davinci-003 模型实现了用于多语言翻译的 Web 应用程序编程接口。用户可以在该网站上输入想要翻译的文字，并选择所需的翻译语言。此外，Open AI多语言翻译机还支持多种语言之间的翻译，如英语、中文、西班牙语、法语、德语等。
 
-The above text was edited and generated with the assistance of ChatGPT.
+上述文本是在 ChatGPT 的协助下编辑和生成的。
 
-## 如何取得專案
+## 如何获取专案
 
-1. 點擊 Github Repository 中的綠色「Code」按鈕。
-2. 點擊「Download ZIP」。
+1. 点击Github Repository中的绿色「代码」按钮。
+2. 点击「下载ZIP」。
 
-## 如何啟動應用程式
+## 如何启动应用程序
 
-1. 首先必須要有 node.js 的執行環境，如果你的電腦未曾安裝過 node.js 請至 [https://nodejs.org/en](https://nodejs.org/en) 下載 LTS 版本並進行安裝。
+1. 首先必须运行node.js的执行环境，如果你的电脑未曾安装过node.js请至[https://nodejs.org/en](https://nodejs.org/en)下载LTS版本并进行安装。
 
-2. 安裝完成後透過編輯器的終端機打開本專案，並使用 npm 安裝 yarn 至你的系統內：
+2. 安装完成后通过编辑器的终端机打开本专案，并使用npm安装yarn至你的系统内部：
 
 Windows
 ```
@@ -34,32 +34,32 @@ MacOS
 sudo npm i -g yarn
 ```
 
-3. 透過 yarn 安裝專案所需模組
+3. 贯穿yarn安装专案所需模组
 
 ```
 yarn install
 ```
 
-4. 在專案根目錄內創建一名為 .env 的檔案並寫入 
+4. 在专案根目录内创建一个为 .env 的文件并写入
 
 ```
 OPENAI_API_KEY=您的OPENAI_API_KEY
 ```
 
-關於如何尋找你的 OPENAI_API_KEY 可參考 [Where do I find my Secret API Key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)。
+关于如何查找您的 OPENAI_API_KEY 可参考[在哪里可以找到我的秘密 API 密钥？](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)。
 
-5. 在終端機上輸入以下指令將應用程式啟動
+5. 在终端程序上输入以下指令将应用启动
 
 ```
 yarn dev
 ```
 
-6. 應用程式啟動後您可在 `http://localhost:3000` 觀看結果。
+6. 应用程序启动后您可在 `http://localhost:3000` 观看结果。
 
-## 貢獻
+## 贡献
 
-若有任何建議或改進，歡迎提交 Pull Request 或建立 Issue。
+如果有任何建议或改进，欢迎提交 Pull Request 或建立 Issue。
 
-## 授權
+## 授权
 
-此專案使用 [MIT License](LICENSE) 授權。
+此专案使用[MIT License](LICENSE)授权。
